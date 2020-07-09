@@ -26,6 +26,7 @@ Successivamente applicare i seguenti amps:
 In alternativa si può rendere disponibile Alfresco tramite [docker-compose](docker-compose/docker-compose.yml)   
 ```bash
 git clone https://github.com/consiglionazionaledellericerche/cool-jconon-template.git
+(git clone https://github.com/gscarpato/cool-jconon-template) ?
 cd cool-jconon-template/docker-compose
 docker-compose up -d
 ```
