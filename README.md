@@ -1,4 +1,4 @@
-# Selezioni online - Progetto Template
+# Selezioni online - Progetto INGV
 
 Il progetto fornisce un esempio di come personalizzare in alcune sue parti la piattaforma [cool-jconon](https://github.com/consiglionazionaledellericerche/cool-jconon).
 
