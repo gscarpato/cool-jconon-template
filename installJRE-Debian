@@ -1,0 +1,10 @@
+java -version
+aptitide install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common
+aptitude install apt-transport-https ca-certificates wget dirmngr gnupg software-properties-common
+wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
+add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/
+aptitude update
+aptitude install adoptopenjdk-8-hotspot
+java -version
+update-alternatives --config java
+java -version
